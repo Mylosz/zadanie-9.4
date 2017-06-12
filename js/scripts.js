@@ -1,6 +1,7 @@
+var tree = '';
 
-function drawTree() {
-  for(var i = 1; i<=5 ; i++) {
+function drawTree(tree) {
+  for(var i = 1; i<=tree ; i++) {
     var star= '';
       for(var j=0; j<i; j++) {
         star += '*';
